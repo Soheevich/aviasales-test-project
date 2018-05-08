@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import Hello from './containers/Hello';
+import TicketsSearch from './containers/TicketsSearch/TicketsSearch';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { enthusiasm } from './reducers/index';
@@ -16,7 +16,7 @@ const store = createStore(enthusiasm, {
 
 ReactDOM.render(
   <Provider store={store}>
-    <Hello />
+    <TicketsSearch />
   </Provider>,
   document.getElementById('root') as HTMLElement
 );
