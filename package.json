@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts-ts": "2.15.1"
+    "@types/react-redux": "^5.0.19",
+    "@types/react-router-dom": "^4.2.6",
+    "react": "16",
+    "react-dom": "16",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-scripts-ts": "2.15.1",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
@@ -14,10 +19,15 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.10",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
     "@types/jest": "^22.2.3",
     "@types/node": "^10.0.4",
     "@types/react": "^16.3.13",
     "@types/react-dom": "^16.0.5",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "react-addons-test-utils": "^15.6.2",
     "typescript": "^2.8.3"
   }
 }
